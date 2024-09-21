@@ -48,9 +48,6 @@ header {
 
 }
 
-.mobile{
-    display: none;
-}
 
 /* FIN DEL HEADER */
 
@@ -60,7 +57,7 @@ main .image-background {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     z-index: 1;
     display: flex;
@@ -106,44 +103,6 @@ main .image-background {
 }
 
 // Termino seccion menu
-
-//Empieza la seccion galeria
-
-.galeria {
-    .container {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .contenedor-imagen-3 {
-        width: 100%;
-        height: 100%;
-
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .single-banner {
-        overflow: hidden;
-        position: relative;
-
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .marg-20 {
-        margin-top: 22px;
-    }
-
-}
-
-
-// Termino la seccion galeria
-
 
 //Empiezo la seccion popular-products
 
@@ -265,8 +224,6 @@ main .image-background {
     }
 }
 
-
-
 // Empieza seccion footer
 
 footer{
@@ -331,10 +288,10 @@ footer{
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
     .desktop{
-        display: none;
+        display: none !important;
     }
     .mobile{
-        display: block;
+        display: block !important;
     }
     .dropdown-toggle::after{
         display: none;
